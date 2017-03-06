@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="asset/style/main.css">
+  <title>Proyecto Final</title>
+</head>
+<body>
+  <!-- colocando dropdown -->
+  <section align= "right">
+    <div class="dropdown" >Hola Maria
+    <button onclick="myFunction();" class="dropbtn">&#9776;</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#">Perfil</a>
+      <a href="index_salir.html">Salir</a>
+    </div>
+    </div>
+  </section>
+
+  <!-- colocando imagen -->
+      <section>
+        <img
+        src="asset/image/logo-laboratoria.svg"
+        alt="triangle with all three sides equal"
+        width="300px"
+        height="100px"
+        left = "100"
+        style="float:middle;" hspace="450" vspace="50">
+      </section>
+  <!-- colocando texto pregunta "text-justify" -->
+      <div class= "contenedor-contenido-pagina ">
+        <h3>¿Que es Laboratoria? </h3>
+      </div>
+  <!-- colocando texto principal -->
+      <div class="contenedor-contenido-pagina ">En Laboratoria identificamos jóvenes de bajos recursos con un potencial enorme y les damos la oportunidad de convertirse en desarrolladoras web. El resultado es una gran transformación para cada estudiante y una gran fuente de talento femenino de América Latina para el mundo tech.En Laboratoria identificamos jóvenes de bajos recursos con un potencial enorme y les damos la oportunidad de convertirse en desarrolladoras web. El resultado es una gran transformación para cada estudiante y una gran fuente de talento femenino de América Latina para el mundo tech.En Laboratoria identificamos jóvenes de bajos recursos con un potencial enorme y les damos la oportunidad de convertirse en desarrolladoras web. El resultado es una gran transformación para cada estudiante y una gran fuente de talento femenino de América Latina para el mundo tech.En Laboratoria identificamos jóvenes de bajos recursos con un potencial enorme y les damos la oportunidad de convertirse en desarrolladoras web. El resultado es una gran transformación para cada estudiante y una gran fuente de talento femenino de América Latina para el mundo tech.</div><p>
+  <!-- colocando botones -->
+  <input type="button" value="Sprint 1" onclick="mostarOcultar('text1')" >
+  <input type="button" value="Sprint 2" onclick="mostarOcultar('text2')">
+  <input type="button" value="Sprint 3" onclick="mostarOcultar('text3')">
+  <br/>
+  <div id="text1">
+    <h4>Sprint 1: Introducción a Javascript - JS</h4>
+    <ol>
+      <li>Fundamentos de Programación </li>
+      <li>Funciones</li>
+      <li>Arreglos</li>
+      <li>Objetos</li>
+    </ol><br>
+    <hr width= "1300" align= "center" size ="10" /><br>
+      <h4>Quiz</h4>
+        <form action="/action_page.php">
+            <h5>Existen dos tipos de funciones</h5>
+                <input type="radio" name="gender" value="male" checked> Expresadas y declaradas<br>
+                <input type="radio" name="gender" value="female"> Explicitas y declaradas<br>
+                <input type="radio" name="gender" value="other"> Expresadas y derivadas<br><br>
+            <h5>Elige una propiedad de los arreglos</h5>
+
+            <h5>Un objeto tiene________ y _________</h5>
+
+
+                <input type="submit">
+        </form>
+
+  </div>
+  <div id="text2">
+    <h4>Sprint 2: Introducción al desarrollo web y construcción de páginas web</h4>
+    <ol>
+      <li>Ciclo de vida del desarrollo web y arquitectura básica cliente/ servidor/ Configuración del ambiente de trabajo e introducción a git </li>
+      <li>HTML y Javascript en el navegador</li>
+      <li>Pruebas unitarias</li>
+      <li>Git/ Resolución de conflictos/ Branching model</li>
+      <li>DOM</li>
+    </ol>
+    <hr width= "1300" align= "center" size ="10" />
+
+  </div>
+  <div id="text3">
+    <h4>Sprint 3: Introducción a Javascript - JS</h4>
+    <ol>
+      No hay lecciones todavía
+    </ol>
+  </div>
+
+
+  <script type="text/javascript" src="asset/js/app.js"></script>
+</body>
+</html>
