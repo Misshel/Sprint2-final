@@ -11,10 +11,16 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-right {
   text-align: right;
 }
-
+.text-justify {
+  text-align: justify;
+}
 .text-center {
   text-align: center;
 }
@@ -57,4 +63,48 @@ input {
 .boton-volver-inicio{
   display: block;
   margin: 40px auto;
+}
+/*css Dropdown*/
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 7px 10px;
+  font-size: 16px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #eee;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100%;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #eee;
+}
+
+.show {
+  display:block;
 }
