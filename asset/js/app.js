@@ -16,11 +16,7 @@ window.onclick = function(event) {
 	}
 };
 
-
-
-
-
-/*Mostrar y ocultar
+// mostrar u ocultar - botones
 var mostarOcultar = function(divtexte) {
 	var divtext = document.getElementById(divtexte);
 	if (divtext.style.display == "block" ) {
@@ -29,4 +25,3 @@ var mostarOcultar = function(divtexte) {
 		divtext.style.display = "block";
 	}
 }
-*/
